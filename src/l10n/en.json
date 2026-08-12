@@ -1,0 +1,49 @@
+{
+  "nav": { "services": "Services", "socials": "Socials", "whatsapp": "WhatsApp" },
+  "hero": {
+    "eyebrow": "WISE101",
+    "title": "We In Service",
+    "highlight": "Empowerment",
+    "copy": "Bringing livestreaming, digital marketing and event management together to create stronger experiences and better connections.",
+    "actions": { "explore": "Explore services", "chatWhatsApp": "Chat on WhatsApp" }
+  },
+  "heroCard": { "tagline": "WE IN SERVICE EMPOWERMENT" },
+  "section": {
+    "subtitle": "WHAT WE DO",
+    "heading": "Provides services on",
+    "description": "Practical creative services built around your audience, brand and event."
+  },
+  "services": {
+    "livestreaming": {
+      "title": "Livestreaming",
+      "description": "Professional livestream production for events, launches, celebrations and online audiences."
+    },
+    "digitalMarketing": {
+      "title": "Digital Marketing",
+      "description": "Content, social media and digital campaigns designed to help your brand reach more people."
+    },
+    "eventManagement": {
+      "title": "Event Management",
+      "description": "End-to-end event support, coordination and production to help your event run smoothly."
+    }
+  },
+  "contact": {
+    "eyebrow": "LET'S CONNECT",
+    "heading": "Have a project in mind?",
+    "body": "Talk to Wise101 about your next livestream, campaign or event.",
+    "whatsappLabel": "WhatsApp us",
+    "whatsappNumber": "0415 872 398",
+    "whatsappMessage": "Hi Wise101, I would like to enquire about your services."
+  },
+  "socials": {
+    "subtitle": "FOLLOW US ON",
+    "heading": "Stay connected with Wise101",
+    "labels": { "instagram": "Instagram", "youtube": "YouTube", "facebook": "Facebook", "spotify": "Spotify" }
+  },
+  "footer": {
+    "website": "www.wise101.com.au",
+    "phone": "0415 872 398",
+    "copyright": "© {year} Wise101. All rights reserved."
+  },
+  "localeLabel": "Language"
+}

@@ -1,0 +1,49 @@
+{
+  "nav": { "services": "Dịch vụ", "socials": "Mạng xã hội", "whatsapp": "WhatsApp" },
+  "hero": {
+    "eyebrow": "WISE101",
+    "title": "Dịch vụ vì",
+    "highlight": "Sức mạnh",
+    "copy": "Kết nối livestreaming, tiếp thị kỹ thuật số và quản lý sự kiện để tạo ra trải nghiệm mạnh mẽ hơn và kết nối tốt hơn.",
+    "actions": { "explore": "Khám phá dịch vụ", "chatWhatsApp": "Trò chuyện trên WhatsApp" }
+  },
+  "heroCard": { "tagline": "DỊCH VỤ VÌ SỨC MẠNH" },
+  "section": {
+    "subtitle": "CHÚNG TÔI LÀM GÌ",
+    "heading": "Cung cấp dịch vụ về",
+    "description": "Dịch vụ sáng tạo thiết thực xây dựng xoay quanh khán giả, thương hiệu và sự kiện của bạn."
+  },
+  "services": {
+    "livestreaming": {
+      "title": "Livestreaming",
+      "description": "Sản xuất livestream chuyên nghiệp cho sự kiện, ra mắt, lễ kỷ niệm và khán giả trực tuyến."
+    },
+    "digitalMarketing": {
+      "title": "Tiếp thị kỹ thuật số",
+      "description": "Nội dung, mạng xã hội và chiến dịch kỹ thuật số được thiết kế giúp thương hiệu của bạn tiếp cận nhiều người hơn."
+    },
+    "eventManagement": {
+      "title": "Quản lý sự kiện",
+      "description": "Hỗ trợ sự kiện đầu cuối, điều phối và sản xuất để giúp sự kiện của bạn diễn ra suôn sẻ."
+    }
+  },
+  "contact": {
+    "eyebrow": "LIÊN KẾT",
+    "heading": "Có dự án trong đầu?",
+    "body": "Nói chuyện với Wise101 về livestream, chiến dịch hoặc sự kiện tiếp theo của bạn.",
+    "whatsappLabel": "WhatsApp với chúng tôi",
+    "whatsappNumber": "0415 872 398",
+    "whatsappMessage": "Chào Wise101, tôi muốn hỏi về dịch vụ của bạn."
+  },
+  "socials": {
+    "subtitle": "THEO DÕI CHÚNG TÔI TRÊN",
+    "heading": "Giữ kết nối với Wise101",
+    "labels": { "instagram": "Instagram", "youtube": "YouTube", "facebook": "Facebook", "spotify": "Spotify" }
+  },
+  "footer": {
+    "website": "www.wise101.com.au",
+    "phone": "0415 872 398",
+    "copyright": "© {year} Wise101. Bảo lưu mọi quyền."
+  },
+  "localeLabel": "Ngôn ngữ"
+}

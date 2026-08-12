@@ -1,0 +1,49 @@
+{
+  "nav": { "services": "服务", "socials": "社交", "whatsapp": "WhatsApp" },
+  "hero": {
+    "eyebrow": "WISE101",
+    "title": "服务让我们",
+    "highlight": "赋能",
+    "copy": "将直播、数字营销和活动管理结合在一起，创造更强大的体验和更好的连接。",
+    "actions": { "explore": "探索服务", "chatWhatsApp": "在 WhatsApp 聊天" }
+  },
+  "heroCard": { "tagline": "我们致力于服务赋能" },
+  "section": {
+    "subtitle": "我们的服务",
+    "heading": "提供以下服务",
+    "description": "围绕您的受众、品牌和活动构建实用创意服务。"
+  },
+  "services": {
+    "livestreaming": {
+      "title": "直播服务",
+      "description": "专业的直播制作，适用于活动、发布会、庆典和在线观众。"
+    },
+    "digitalMarketing": {
+      "title": "数字营销",
+      "description": "内容、社交媒体和数字活动，旨在帮助您的品牌接触更多人。"
+    },
+    "eventManagement": {
+      "title": "活动管理",
+      "description": "端到端活动支持、协调和制作，帮助您的活动顺利进行。"
+    }
+  },
+  "contact": {
+    "eyebrow": "让我们联系",
+    "heading": "心中有项目吗？",
+    "body": "与 Wise101 讨论您下一个直播、活动或营销活动。",
+    "whatsappLabel": "WhatsApp 我们",
+    "whatsappNumber": "0415 872 398",
+    "whatsappMessage": "你好 Wise101，我想咨询你们的服务。"
+  },
+  "socials": {
+    "subtitle": "关注我们",
+    "heading": "与 Wise101 保持联系",
+    "labels": { "instagram": "Instagram", "youtube": "YouTube", "facebook": "Facebook", "spotify": "Spotify" }
+  },
+  "footer": {
+    "website": "www.wise101.com.au",
+    "phone": "0415 872 398",
+    "copyright": "© {year} Wise101。版权所有。"
+  },
+  "localeLabel": "语言"
+}

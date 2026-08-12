@@ -1,0 +1,49 @@
+{
+  "nav": { "services": "บริการ", "socials": "โซเชียล", "whatsapp": "WhatsApp" },
+  "hero": {
+    "eyebrow": "WISE101",
+    "title": "บริการของเรา", 
+    "highlight": "การเสริมพลัง",
+    "copy": "รวม livestreaming, การตลาดดิจิทัล และการจัดการงานเพื่อสร้างประสบการณ์ที่แข็งแกร่งขึ้นและการเชื่อมต่อที่ดียิ่งขึ้น.",
+    "actions": { "explore": "สำรวจบริการ", "chatWhatsApp": "แชทบน WhatsApp" }
+  },
+  "heroCard": { "tagline": "บริการเพื่อการเสริมพลัง" },
+  "section": {
+    "subtitle": "เราทำอะไร",
+    "heading": "ให้บริการในด้าน",
+    "description": "บริการสร้างสรรค์เชิงปฏิบัติที่สร้างขึ้นรอบผู้ชม แบรนด์ และกิจกรรมของคุณ."
+  },
+  "services": {
+    "livestreaming": {
+      "title": "Livestreaming",
+      "description": "การผลิต livestream แบบมืออาชีพสำหรับกิจกรรม การเปิดตัว การเฉลิมฉลอง และผู้ชมออนไลน์."
+    },
+    "digitalMarketing": {
+      "title": "การตลาดดิจิทัล",
+      "description": "เนื้อหา สื่อสังคมออนไลน์ และแคมเปญดิจิทัลที่ออกแบบมาเพื่อช่วยให้แบรนด์ของคุณเข้าถึงผู้คนได้มากขึ้น."
+    },
+    "eventManagement": {
+      "title": "การจัดการงาน",
+      "description": "การสนับสนุนงานแบบครบวงจร การประสานงาน และการผลิตเพื่อช่วยให้กิจกรรมของคุณดำเนินไปอย่างราบรื่น."
+    }
+  },
+  "contact": {
+    "eyebrow": "ติดต่อเรา",
+    "heading": "มีโปรเจคอยู่ในใจไหม?",
+    "body": "พูดคุยกับ Wise101 เกี่ยวกับ livestream แคมเปญ หรือกิจกรรมถัดไปของคุณ.",
+    "whatsappLabel": "WhatsApp เรา",
+    "whatsappNumber": "0415 872 398",
+    "whatsappMessage": "สวัสดี Wise101 ฉันต้องการสอบถามเกี่ยวกับบริการของคุณ."
+  },
+  "socials": {
+    "subtitle": "ติดตามเราได้ที่",
+    "heading": "เชื่อมต่อกับ Wise101",
+    "labels": { "instagram": "Instagram", "youtube": "YouTube", "facebook": "Facebook", "spotify": "Spotify" }
+  },
+  "footer": {
+    "website": "www.wise101.com.au",
+    "phone": "0415 872 398",
+    "copyright": "© {year} Wise101. สงวนลิขสิทธิ์."
+  },
+  "localeLabel": "ภาษา"
+}

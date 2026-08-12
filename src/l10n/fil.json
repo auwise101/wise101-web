@@ -1,0 +1,49 @@
+{
+  "nav": { "services": "Serbisyo", "socials": "Socials", "whatsapp": "WhatsApp" },
+  "hero": {
+    "eyebrow": "WISE101",
+    "title": "Serbisyo ang Aming Galing",
+    "highlight": "Pagpapalakas",
+    "copy": "Pinagsasama ang livestreaming, digital marketing, at pamamahala ng kaganapan upang lumikha ng mas malakas na karanasan at mas magagandang koneksyon.",
+    "actions": { "explore": "Tuklasin ang mga serbisyo", "chatWhatsApp": "Chat sa WhatsApp" }
+  },
+  "heroCard": { "tagline": "SERBISYO AT PAGPAPALAKAS" },
+  "section": {
+    "subtitle": "ANO ANG GINAGAWA NATIN",
+    "heading": "Nagbibigay ng mga serbisyo sa",
+    "description": "Praktikal na malikhaing serbisyo na itinayo sa paligid ng iyong audience, brand at kaganapan."
+  },
+  "services": {
+    "livestreaming": {
+      "title": "Livestreaming",
+      "description": "Propesyonal na livestream production para sa mga event, launch, selebrasyon at online na audience."
+    },
+    "digitalMarketing": {
+      "title": "Digital Marketing",
+      "description": "Nilalaman, social media, at digital na kampanyang dinisenyo upang tulungan ang iyong brand maabot ang higit pang tao."
+    },
+    "eventManagement": {
+      "title": "Pamamahala ng Kaganapan",
+      "description": "End-to-end na suporta sa event, koordinasyon, at produksyon upang matiyak na maayos ang iyong event."
+    }
+  },
+  "contact": {
+    "eyebrow": "KUMONEKTA TAYO",
+    "heading": "May proyekto ba sa isip?",
+    "body": "Makipag-usap sa Wise101 tungkol sa iyong susunod na livestream, kampanya, o event.",
+    "whatsappLabel": "WhatsApp kami",
+    "whatsappNumber": "0415 872 398",
+    "whatsappMessage": "Hi Wise101, gusto kong magtanong tungkol sa inyong mga serbisyo."
+  },
+  "socials": {
+    "subtitle": "SUNDAN KAMI SA",
+    "heading": "Manatiling konektado sa Wise101",
+    "labels": { "instagram": "Instagram", "youtube": "YouTube", "facebook": "Facebook", "spotify": "Spotify" }
+  },
+  "footer": {
+    "website": "www.wise101.com.au",
+    "phone": "0415 872 398",
+    "copyright": "© {year} Wise101. Lahat ng karapatan ay nakalaan."
+  },
+  "localeLabel": "Wika"
+}

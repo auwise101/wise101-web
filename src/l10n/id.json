@@ -1,0 +1,49 @@
+{
+  "nav": { "services": "Layanan", "socials": "Sosial", "whatsapp": "WhatsApp" },
+  "hero": {
+    "eyebrow": "WISE101",
+    "title": "Kami Utamakan Layanan",
+    "highlight": "Pemberdayaan",
+    "copy": "Menggabungkan livestreaming, pemasaran digital, dan manajemen acara untuk menciptakan pengalaman yang lebih kuat dan koneksi yang lebih baik.",
+    "actions": { "explore": "Jelajahi layanan", "chatWhatsApp": "Chat di WhatsApp" }
+  },
+  "heroCard": { "tagline": "KAMI UTAMAKAN PEMBERDAYAAN LAYANAN" },
+  "section": {
+    "subtitle": "APA YANG KAMI LAKUKAN",
+    "heading": "Menyediakan layanan pada",
+    "description": "Layanan kreatif praktis dibangun di sekitar audiens, merek, dan acara Anda."
+  },
+  "services": {
+    "livestreaming": {
+      "title": "Livestreaming",
+      "description": "Produksi livestream profesional untuk acara, peluncuran, perayaan, dan audiens daring."
+    },
+    "digitalMarketing": {
+      "title": "Pemasaran Digital",
+      "description": "Konten, media sosial, dan kampanye digital yang dirancang untuk membantu merek Anda menjangkau lebih banyak orang."
+    },
+    "eventManagement": {
+      "title": "Manajemen Acara",
+      "description": "Dukungan acara end-to-end, koordinasi, dan produksi untuk membantu acara Anda berjalan lancar."
+    }
+  },
+  "contact": {
+    "eyebrow": "AYO TERHUBUNG",
+    "heading": "Punya proyek dalam pikiran?",
+    "body": "Bicarakan dengan Wise101 tentang livestream, kampanye, atau acara Anda berikutnya.",
+    "whatsappLabel": "WhatsApp kami",
+    "whatsappNumber": "0415 872 398",
+    "whatsappMessage": "Hai Wise101, saya ingin menanyakan layanan Anda."
+  },
+  "socials": {
+    "subtitle": "IKUTI KAMI DI",
+    "heading": "Tetap terhubung dengan Wise101",
+    "labels": { "instagram": "Instagram", "youtube": "YouTube", "facebook": "Facebook", "spotify": "Spotify" }
+  },
+  "footer": {
+    "website": "www.wise101.com.au",
+    "phone": "0415 872 398",
+    "copyright": "© {year} Wise101. Semua hak dilindungi undang-undang."
+  },
+  "localeLabel": "Bahasa"
+}
