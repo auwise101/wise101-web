@@ -258,9 +258,14 @@ function App() {
       </main>
 
       <footer>
-        <div className="footer-brand">
+        <button
+          type="button"
+          className="footer-brand footer-top-button"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          aria-label="Back to top"
+        >
           <img className="footer-logo" src={import.meta.env.BASE_URL ? import.meta.env.BASE_URL + 'wise101-reference.png' : 'wise101-reference.png'} alt="Wise101 logo" />
-        </div>
+        </button>
         <a href="https://www.wise101.com.au" target="_blank" rel="noreferrer">
           <Icon name="globe" size={19} /> {strings.footer.website}
         </a>
