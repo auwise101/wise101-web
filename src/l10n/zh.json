@@ -1,5 +1,17 @@
 {
-  "nav": { "services": "服务", "socials": "社交", "whatsapp": "WhatsApp" },
+  "nav": { "about": "关于我们", "services": "服务", "contact": "联系我们", "socials": "社交", "whatsapp": "WhatsApp" },
+  "about": {
+    "eyebrow": "关于 WISE101",
+    "heading": "为想被看到并被记住的品牌提供创意支持。",
+    "title": "我们是谁",
+    "description": "Wise101 帮助企业通过直播、数字营销和活动制作建立更强大的数字存在感。我们将创意思维与实际执行结合起来，让您的信息触达正确的受众，并让您的活动从始至终都显得精致和顺畅。",
+    "pointsTitle": "我们提供什么",
+    "points": [
+      "为发布会、活动和在线观众提供专业直播制作。",
+      "提升可见度、参与度和品牌信任的数字营销活动。",
+      "确保活动顺畅且难忘的策划与协调支持。"
+    ]
+  },
   "hero": {
     "eyebrow": "WISE101",
     "title": "服务让我们",

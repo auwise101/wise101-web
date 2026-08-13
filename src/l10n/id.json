@@ -1,5 +1,17 @@
 {
-  "nav": { "services": "Layanan", "socials": "Sosial", "whatsapp": "WhatsApp" },
+  "nav": { "about": "Tentang", "services": "Layanan", "contact": "Kontak", "socials": "Sosial", "whatsapp": "WhatsApp" },
+  "about": {
+    "eyebrow": "TENTANG WISE101",
+    "heading": "Dukungan kreatif untuk brand yang ingin dilihat dan diingat.",
+    "title": "Siapakah kami",
+    "description": "Wise101 membantu bisnis membangun kehadiran digital yang lebih kuat melalui livestreaming, pemasaran digital, dan produksi acara. Kami menggabungkan pemikiran kreatif dengan eksekusi praktis agar pesan Anda menjangkau audiens yang tepat dan acara Anda terasa rapi dari awal hingga akhir.",
+    "pointsTitle": "Yang kami sampaikan",
+    "points": [
+      "Produksi livestream profesional untuk peluncuran, acara, dan audiens daring.",
+      "Kampanye digital yang meningkatkan visibilitas, keterlibatan, dan kepercayaan merek.",
+      "Perencanaan dan koordinasi acara yang menjaga pengalaman Anda berjalan lancar dan berkesan."
+    ]
+  },
   "hero": {
     "eyebrow": "WISE101",
     "title": "Kami Utamakan Layanan",

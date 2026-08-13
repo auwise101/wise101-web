@@ -1,5 +1,17 @@
 {
-  "nav": { "services": "Services", "socials": "Socials", "whatsapp": "WhatsApp" },
+  "nav": { "about": "About", "services": "Services", "contact": "Contact", "socials": "Socials", "whatsapp": "WhatsApp" },
+  "about": {
+    "eyebrow": "ABOUT WISE101",
+    "heading": "We create experiences that connect, inspire, and empower.",
+    "title": "Who we are",
+    "description": "Wise101 stands for \"We In Service Empowerment.\" Based in Brisbane, Queensland, Australia, we help businesses and communities build stronger connections through livestreaming, digital marketing, event production, music, podcasts, storytelling, and live experiences. We combine creative thinking with practical execution to help your message reach the right audience and your events feel polished from start to finish. But for us, it goes beyond simply delivering a service. We believe every story has value, every voice deserves to be heard, and every conversation has the power to create understanding, spark hope, and make a positive impact. Whether we're behind a camera, behind a microphone, on a stage, or working behind the scenes, our purpose remains the same: To inform. To inspire. To connect. To empower.",
+    "pointsTitle": "What we deliver",
+    "points": [
+      "Professional livestream production for launches, events, and online audiences.",
+      "Digital campaigns that grow visibility, engagement, and brand trust.",
+      "Event planning and coordination that keeps your experience smooth and memorable."
+    ]
+  },
   "hero": {
     "eyebrow": "WISE101",
     "title": "We In Service",
@@ -30,7 +42,7 @@
   "contact": {
     "eyebrow": "LET'S CONNECT",
     "heading": "Have a project in mind?",
-    "body": "Talk to Wise101 about your next livestream, campaign or event.",
+    "body": "Based in Brisbane, Queensland, Australia, Wise101 helps brands and businesses plan unforgettable livestreams, campaigns and events.",
     "whatsappLabel": "WhatsApp us",
     "whatsappNumber": "0415 872 398",
     "whatsappMessage": "Hi Wise101, I would like to enquire about your services."

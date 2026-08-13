@@ -1,5 +1,17 @@
 {
-  "nav": { "services": "Serbisyo", "socials": "Socials", "whatsapp": "WhatsApp" },
+  "nav": { "about": "Tungkol", "services": "Serbisyo", "contact": "Kontak", "socials": "Socials", "whatsapp": "WhatsApp" },
+  "about": {
+    "eyebrow": "TUNGKOL SA WISE101",
+    "heading": "Creative support para sa mga brand na gustong makita at tandaan.",
+    "title": "Sino kami",
+    "description": "Tinutulungan ng Wise101 ang mga negosyo na paunlarin ang kanilang digital presence sa pamamagitan ng livestreaming, digital marketing, at event production. Pinagsasama namin ang malikhaing pag-iisip at praktikal na execution upang maabot ng iyong mensahe ang tamang audience at maging maayos mula simula hanggang katapusan ang iyong mga event.",
+    "pointsTitle": "Ano ang aming ibinibigay",
+    "points": [
+      "Propesyonal na livestream production para sa launches, events, at online audiences.",
+      "Digital campaigns na nagpapalakas ng visibility, engagement, at brand trust.",
+      "Event planning at coordination na nagpapanatiling maayos at memorable ang iyong karanasan."
+    ]
+  },
   "hero": {
     "eyebrow": "WISE101",
     "title": "Serbisyo ang Aming Galing",

@@ -181,6 +181,36 @@ a { color: inherit; text-decoration: none; }
   width: min(1180px, calc(100% - 40px));
   margin: 140px auto 0;
 }
+.about-section {
+  margin-top: 110px;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+.about-card {
+  padding: 28px 26px;
+  border: 1px solid rgba(255,255,255,.09);
+  background: linear-gradient(145deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+}
+.about-card h3 {
+  margin: 0 0 14px;
+  color: var(--gold);
+  font-size: 20px;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+.about-card p,
+.about-card li {
+  color: #b5b5b5;
+  line-height: 1.8;
+  font-size: 14px;
+}
+.about-card ul {
+  margin: 0;
+  padding-left: 20px;
+}
 .section-heading { text-align: center; margin-bottom: 48px; }
 .section-heading > span {
   color: var(--gold); font-size: 11px; font-weight: 700; letter-spacing: .28em;
@@ -213,15 +243,32 @@ a { color: inherit; text-decoration: none; }
 }
 .contact-section h2 { margin: 0 0 8px; font-size: 31px; }
 .contact-section p { margin: 0; color: #999; font-size: 13px; }
-.whatsapp-card {
-  min-width: 300px; display: flex; align-items: center; gap: 15px; padding: 15px 18px;
+.location-line {
+  margin-top: 12px !important;
+  color: var(--gold) !important;
+  font-weight: 600;
+  letter-spacing: .04em;
+}
+.contact-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 320px;
+}
+.whatsapp-card,
+.email-card {
+  display: flex; align-items: center; gap: 15px; padding: 15px 18px;
   border: 1px solid rgba(242,174,0,.45); background: rgba(0,0,0,.45);
 }
-.whatsapp-card:hover { border-color: var(--gold); }
+.whatsapp-card:hover,
+.email-card:hover { border-color: var(--gold); }
 .whatsapp-icon { color: var(--gold); }
-.whatsapp-card small { display: block; color: #999; font-size: 10px; text-transform: uppercase; letter-spacing: .1em; }
-.whatsapp-card strong { display: block; margin-top: 3px; font-size: 16px; letter-spacing: .03em; }
-.whatsapp-card > svg { margin-left: auto; color: var(--gold); }
+.whatsapp-card small,
+.email-card small { display: block; color: #999; font-size: 10px; text-transform: uppercase; letter-spacing: .1em; }
+.whatsapp-card strong,
+.email-card strong { display: block; margin-top: 3px; font-size: 16px; letter-spacing: .03em; }
+.whatsapp-card > svg,
+.email-card > svg { margin-left: auto; color: var(--gold); }
 
 .social-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 13px; }
 .social-card {
@@ -254,6 +301,7 @@ footer small { color: #555; }
   .hero-card { justify-self: start; width: 100%; min-height: 280px; }
   .service-grid { grid-template-columns: 1fr; }
   .service-card { min-height: 235px; }
+  .about-grid { grid-template-columns: 1fr; }
   .contact-section { flex-direction: column; align-items: stretch; }
   .whatsapp-card { min-width: 0; }
   .social-grid { grid-template-columns: repeat(2, 1fr); }

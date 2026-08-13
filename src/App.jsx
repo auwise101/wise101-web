@@ -112,7 +112,9 @@ function App() {
           <img className="header-logo" src={import.meta.env.BASE_URL ? import.meta.env.BASE_URL + 'wise101-reference.png' : 'wise101-reference.png'} alt="Wise101 logo" />
         </a>
         <nav>
+          <a href="#about">{strings.nav.about}</a>
           <a href="#services">{strings.nav.services}</a>
+          <a href="#contact">{strings.nav.contact}</a>
           <a href="#socials">{strings.nav.socials}</a>
           <a className="nav-contact" href={whatsappUrl} target="_blank" rel="noreferrer">
             {strings.nav.whatsapp}
@@ -159,6 +161,28 @@ function App() {
           </div>
         </section>
 
+        <section className="section about-section" id="about">
+          <div className="section-heading">
+            <span>{strings.about.eyebrow}</span>
+            <h2>{strings.about.heading}</h2>
+          </div>
+
+          <div className="about-grid">
+            <div className="about-card">
+              <h3>{strings.about.title}</h3>
+              <p>{strings.about.description}</p>
+            </div>
+            <div className="about-card">
+              <h3>{strings.about.pointsTitle}</h3>
+              <ul>
+                {strings.about.points.map((point) => (
+                  <li key={point}>{point}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+
         <section className="section" id="services">
           <div className="section-heading">
             <span>{strings.section.subtitle}</span>
@@ -180,20 +204,31 @@ function App() {
           </div>
         </section>
 
-        <section className="contact-section">
+        <section className="contact-section" id="contact">
           <div>
             <span className="eyebrow">{strings.contact.eyebrow}</span>
             <h2>{strings.contact.heading}</h2>
             <p>{strings.contact.body}</p>
+            <p className="location-line">Brisbane, Queensland, Australia</p>
           </div>
-          <a className="whatsapp-card" href={whatsappUrl} target="_blank" rel="noreferrer">
-            <div className="whatsapp-icon"><Icon name="whatsapp" size={31} /></div>
-            <div>
-              <small>{strings.contact.whatsappLabel}</small>
-              <strong>{strings.contact.whatsappNumber}</strong>
-            </div>
-            <Icon name="arrow" size={21} />
-          </a>
+          <div className="contact-cards">
+            <a className="whatsapp-card" href={whatsappUrl} target="_blank" rel="noreferrer">
+              <div className="whatsapp-icon"><Icon name="whatsapp" size={31} /></div>
+              <div>
+                <small>{strings.contact.whatsappLabel}</small>
+                <strong>{strings.contact.whatsappNumber}</strong>
+              </div>
+              <Icon name="arrow" size={21} />
+            </a>
+            <a className="email-card" href="mailto:auwise101@gmail.com">
+              <div className="whatsapp-icon"><Icon name="globe" size={31} /></div>
+              <div>
+                <small>Email</small>
+                <strong>auwise101@gmail.com</strong>
+              </div>
+              <Icon name="arrow" size={21} />
+            </a>
+          </div>
         </section>
 
         <section className="section socials" id="socials">
@@ -231,6 +266,9 @@ function App() {
         </a>
         <a href={whatsappUrl} target="_blank" rel="noreferrer">
           <Icon name="whatsapp" size={19} /> {strings.footer.phone}
+        </a>
+        <a href="mailto:auwise101@gmail.com">
+          <Icon name="globe" size={19} /> auwise101@gmail.com
         </a>
         <small>{copyrightText}</small>
       </footer>

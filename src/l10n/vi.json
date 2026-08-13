@@ -1,5 +1,17 @@
 {
-  "nav": { "services": "Dịch vụ", "socials": "Mạng xã hội", "whatsapp": "WhatsApp" },
+  "nav": { "about": "Về chúng tôi", "services": "Dịch vụ", "contact": "Liên hệ", "socials": "Mạng xã hội", "whatsapp": "WhatsApp" },
+  "about": {
+    "eyebrow": "VỀ WISE101",
+    "heading": "Hỗ trợ sáng tạo cho các thương hiệu muốn được nhìn thấy và ghi nhớ.",
+    "title": "Chúng tôi là ai",
+    "description": "Wise101 giúp doanh nghiệp xây dựng sự hiện diện kỹ thuật số mạnh hơn thông qua livestreaming, tiếp thị kỹ thuật số và sản xuất sự kiện. Chúng tôi kết hợp tư duy sáng tạo với thực thi thực tế để thông điệp của bạn tiếp cận đúng khán giả và sự kiện của bạn trông chuyên nghiệp từ đầu đến cuối.",
+    "pointsTitle": "Chúng tôi mang lại điều gì",
+    "points": [
+      "Sản xuất livestream chuyên nghiệp cho ra mắt, sự kiện và khán giả trực tuyến.",
+      "Chiến dịch kỹ thuật số tăng độ hiển thị, tương tác và niềm tin thương hiệu.",
+      "Lập kế hoạch và điều phối sự kiện giúp trải nghiệm của bạn trôi chảy và đáng nhớ."
+    ]
+  },
   "hero": {
     "eyebrow": "WISE101",
     "title": "Dịch vụ vì",
