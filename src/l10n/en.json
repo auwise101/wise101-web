@@ -1,5 +1,5 @@
 {
-  "nav": { "about": "About", "services": "Services", "contact": "Contact", "socials": "Socials", "whatsapp": "WhatsApp" },
+  "nav": { "about": "About", "services": "Services", "contact": "Contact", "socials": "Socials", "events": "Events", "whatsapp": "WhatsApp" },
   "about": {
     "eyebrow": "ABOUT WISE101",
     "heading": "We create experiences that connect, inspire, and empower.",
@@ -20,6 +20,21 @@
     "actions": { "explore": "Explore services", "chatWhatsApp": "Chat on WhatsApp" }
   },
   "heroCard": { "tagline": "WE IN SERVICE EMPOWERMENT" },
+  "events": {
+    "eyebrow": "WISE101 EVENTS",
+    "heading": "Make your next event matter.",
+    "description": "From intimate community gatherings to high-energy launches, we shape live experiences that bring people together and give your message a lasting pulse.",
+    "cta": "Plan an event",
+    "cardLabel": "NOW BOOKING",
+    "cardTitle": "Live experiences",
+    "cardBody": "Production, coordination and storytelling built around your audience.",
+    "listEyebrow": "WHAT'S AHEAD",
+    "listHeading": "Upcoming opportunities",
+    "status": "OPEN FOR ENQUIRIES",
+    "featureTitle": "YANA (You Are Not Alone) - Mental Health Awareness Concert for a Cause",
+    "featureBody": "Join us on 26 September 2026 for YANA, a mental health awareness concert raising support through music and community.",
+    "month": "ANY MONTH"
+  },
   "section": {
     "subtitle": "WHAT WE DO",
     "heading": "Provides services on",

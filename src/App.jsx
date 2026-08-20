@@ -19,6 +19,9 @@ const socials = [
 ];
 
 const defaultLocale = 'en';
+const homeUrl = import.meta.env.BASE_URL || '/';
+const eventsUrl = `${homeUrl}events.html`;
+const facebookEventsUrl = 'https://www.facebook.com/events/4544523615777792';
 
 function Icon({ name, size = 30 }) {
   const common = {
@@ -99,11 +102,115 @@ function Icon({ name, size = 30 }) {
   return <svg {...common}>{paths[name]}</svg>;
 }
 
+function EventsPage({ strings, whatsappUrl, locale, setLocale }) {
+  const events = strings.events || locales[defaultLocale].events;
+
+  return (
+    <div className="site events-page">
+      <header className="nav">
+        <a className="brand" href={homeUrl} aria-label="Wise101 home">
+          <img className="header-logo" src={`${homeUrl}wise101-reference.png`} alt="Wise101 logo" />
+        </a>
+        <nav>
+          <a href={homeUrl}>{strings.nav.about}</a>
+          <a href={`${homeUrl}#services`}>{strings.nav.services}</a>
+          <a href={`${homeUrl}#contact`}>{strings.nav.contact}</a>
+          <a className="nav-contact" href={whatsappUrl} target="_blank" rel="noreferrer">
+            {strings.nav.whatsapp}
+          </a>
+          <label className="locale-select">
+            <span className="sr-only">{strings.localeLabel}</span>
+            <select value={locale} onChange={(event) => setLocale(event.target.value)}>
+              {localeOptions.map((option) => (
+                <option key={option.value} value={option.value}>{option.label}</option>
+              ))}
+            </select>
+          </label>
+        </nav>
+      </header>
+
+      <main className="events-main">
+        <section className="events-hero">
+          <div className="events-hero-copy">
+            <span className="eyebrow">{events.eyebrow}</span>
+            <h1>{events.heading}</h1>
+            <p>{events.description}</p>
+            <a className="button primary" href={whatsappUrl} target="_blank" rel="noreferrer">
+              {events.cta} <Icon name="arrow" size={19} />
+            </a>
+          </div>
+          <div className="events-date-card">
+            <span>{events.cardLabel}</span>
+            <strong>{events.cardTitle}</strong>
+            <div className="card-line" />
+            <p>{events.cardBody}</p>
+          </div>
+        </section>
+
+        <section className="events-list section">
+          <div className="section-heading">
+            <span>{events.listEyebrow}</span>
+            <h2>{events.listHeading}</h2>
+          </div>
+          <article className="event-feature">
+            <div className="event-feature-date"><strong>26</strong><span>SEPTEMBER 2026</span></div>
+            <div>
+              <span className="event-status">{events.status}</span>
+              <h3>{events.featureTitle}</h3>
+              <p>{events.featureBody}</p>
+              <a className="facebook-event-link" href={facebookEventsUrl} target="_blank" rel="noreferrer">
+                {events.facebookCta || 'View event on Facebook'} <Icon name="arrow" size={16} />
+              </a>
+            </div>
+            <a className="event-arrow" href={facebookEventsUrl} target="_blank" rel="noreferrer" aria-label={events.facebookCta || 'View Facebook events'}>
+              <Icon name="arrow" size={24} />
+            </a>
+          </article>
+        </section>
+
+        <section className="donation-section section">
+          <div className="section-heading">
+            <span>SUPPORT THE CAUSE</span>
+            <h2>Make a donation</h2>
+          </div>
+          <div className="donation-content">
+            <p>Support YANA (You Are Not Alone) and help raise awareness for mental health through music and community.</p>
+            <form action="https://www.paypal.com/donate" method="post" target="_top">
+              <input type="hidden" name="hosted_button_id" value="38ZC9VH32BR5W" />
+              <input
+                type="image"
+                src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_LG.gif"
+                border="0"
+                name="submit"
+                title="PayPal - The safer, easier way to pay online!"
+                alt="Donate with PayPal button"
+              />
+              <img alt="" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <a className="footer-brand" href={homeUrl}>
+          <img className="footer-logo" src={`${homeUrl}wise101-reference.png`} alt="Wise101 logo" />
+        </a>
+        <a href={whatsappUrl} target="_blank" rel="noreferrer"><Icon name="whatsapp" size={19} /> {strings.footer.phone}</a>
+        <small>{strings.footer.copyright.replace('{year}', new Date().getFullYear())}</small>
+      </footer>
+    </div>
+  );
+}
+
 function App() {
   const [locale, setLocale] = React.useState(defaultLocale);
   const strings = locales[locale] || locales[defaultLocale];
   const whatsappUrl = getWhatsappUrl(strings.contact.whatsappMessage);
   const copyrightText = strings.footer.copyright.replace('{year}', new Date().getFullYear());
+
+  if (window.location.pathname.endsWith('/events.html')) {
+    return <EventsPage strings={strings} whatsappUrl={whatsappUrl} locale={locale} setLocale={setLocale} />;
+  }
 
   return (
     <div className="site">
@@ -116,6 +223,7 @@ function App() {
           <a href="#services">{strings.nav.services}</a>
           <a href="#contact">{strings.nav.contact}</a>
           <a href="#socials">{strings.nav.socials}</a>
+          <a href={eventsUrl}>{strings.nav.events || 'Events'}</a>
           <a className="nav-contact" href={whatsappUrl} target="_blank" rel="noreferrer">
             {strings.nav.whatsapp}
           </a>
